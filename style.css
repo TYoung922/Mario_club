@@ -90,7 +90,7 @@ article p {
 .images img {
   height: 8rem;
 }
-on.join {
+section.join {
   background: #f4f4f4;
   text-align: center;
   padding: 60px 20px;
@@ -156,9 +156,9 @@ p::selection {
 p::after {
   content: "...";
 }
-/* p.copyright::after {
+p.copyright::after {
   content: none;
-} */
+}
 
 /* responsive styles */
 @media screen and (max-width: 1400px) {

@@ -46,10 +46,10 @@ header h1 {
   font-size: 1.3em;
 }
 nav {
-  background-color: #f4f4f4;
+  background-color: #f63232;
   padding: 20px;
   position: sticky;
-  top: 106px;
+  top: 100px;
 }
 nav ul {
   white-space: nowrap;
@@ -66,7 +66,7 @@ nav li a {
   color: #4b4b4b;
 }
 nav li a.join {
-  color: #f63232;
+  color: white;
 }
 main {
   max-width: 100%;
@@ -122,10 +122,17 @@ footer {
 
 nav li a:hover {
   text-decoration: underline;
+  background: white;
+  padding: 10px;
+  border-radius: 36px;
+}
+nav li a.join:hover {
+  color: #f63232;
 }
 .images li:hover {
   position: relative;
-  top: -4px;
+  box-align: center;
+  transform: scale(2);
 }
 form input:focus {
   border: 4px dashed #4b4b4b;

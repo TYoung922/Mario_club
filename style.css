@@ -119,7 +119,7 @@ footer {
   transform: scale(4);
 }
 .images:hover {
-  border: #f63232;
+  border: solid #f63232;
 }
 
 nav li a:hover {

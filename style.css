@@ -116,7 +116,10 @@ footer {
 
 .images:active img,
 .images:focus img {
-  transform: scale(3);
+  transform: scale(4);
+}
+.images:hover {
+  border: #f63232;
 }
 
 nav li a:hover {
@@ -153,6 +156,9 @@ p::selection {
 p::after {
   content: "...";
 }
+/* p.copyright::after {
+  content: none;
+} */
 
 /* responsive styles */
 @media screen and (max-width: 1400px) {
